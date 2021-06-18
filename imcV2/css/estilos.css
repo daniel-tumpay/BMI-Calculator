@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'open sans';
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo{
+    color:#12d4a3;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+/*ENCABEZADO*/
+header{
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(to right, #10aef798, #12d4a3), url(../img/woman.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover; /**/
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav{
+    text-align: right;
+    padding: 25px 50px 0 0;
+}
+ nav > a{
+    color:#fff; 
+    font-weight: 500; /*Grosor*/
+    text-decoration: none; /*sin subrayado*/
+    margin-right: 10px; /*separado entre objetos*/
+ }
+ nav > a:hover{/*sobre texto*/
+     text-decoration: underline;
+ }
+
+ header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1{
+    font-size: 50px;
+    color:#fff;
+}
+
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color:#fff;
+}
+
+.ola{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.botoncalcular:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+}
+.img-calculadora{
+    width: 50%;
+    padding: 50px 0px 50px 0px;
+}
+
+
+/*Pie de pagina*/
+footer{
+    background: linear-gradient(to right, #10aef798, #229075);
+    padding: 30px 0 30px 0;
+    margin: auto; /*centrar todo*/
+    overflow: hidden;
+}
+
+.contenedor-pie{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px ;
+    
+    margin: auto;
+}
+
+.content-foo{ /* tamaño de las pestañas del pie de pag*/
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.content-foo a{
+    color: #fff;
+    border-bottom: 3px solid rgb(17, 111, 165);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+
+    font-weight: 300; /*mas delgado*/
+    text-decoration: none; /*sin subrayado azul*/
+    margin-right: 10px; /*separado entre ellos*/
+}
+
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.titulo-final a {
+    color: #fff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 300; /*mas delgado*/
+    text-decoration: none; /*sin subrayado azul*/
+    margin-right: 10px; /*separado entre ellos*/
+}
+.content-foo > a:hover{
+    border-bottom: 3px solid #b0e4ba;
+}
+/*Pagina CALCULADORA*/
+.content-test{
+    text-align: center;
+    font-size: 20px;
+    padding: 3px;
+
+}
+.content-test:hover{
+    background: rgb(243, 239, 239);
+    
+}
+
+.contenido-texto{
+    text-align: center;
+    padding: 10px 0px 30px 15px;
+    font-weight: 300;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 26px;
+    border-radius: 15px;
+
+    
+}
+.contenido-texto:hover{
+    background: rgb(206, 206, 206);
+}
+
+.contenido-texto h2{
+    color: rgb(28, 228, 151);
+    font-size: 32px;
+}
+.contenido-texto > input{ /* Contenido de cm y kg  */
+    font-size: 30px;
+    border: none;
+    border-bottom: 1.5px solid #324;
+    text-align: center;
+    width: 80px;
+}
+.contenido-texto > label{ /*Etiqueta de cm y kg */
+    font-size: 35px;
+    font-weight: 300;
+}
+#boton{ /*Estilo del boton CALCULAR */
+    font-size: 35px;
+    margin-bottom: 41px;
+    width: 200px;
+    height: 80px;
+    border-radius: 8px;
+    background: linear-gradient(to right, #10aef798,#12d4a3) ;
+    border: none;
+    cursor: pointer;
+    
+}
+
+#respuesta{ /*El imc y la recomendacion */
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.img{ /*tabla IMC */
+    display:block;
+    margin:auto;
+}

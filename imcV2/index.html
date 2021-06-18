@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="calcu.html">Inicio</a>
+            <a href="#">Calcular</a>
+            <a href="#">¿Por qué es importante saber tu IMC?</a>
+        </nav>
+        <section class="textos-header">
+            <h1>Calculadora de Indice de Masa Corporal</h1>
+            <h2>BMI Calculator</h2>
+        </section>
+    </header>
+    <main>
+        <section class="contenedor calculadora">
+            <h2 class="titulo">Calculadora IMC</h2>
+            <div class="content-test">
+                <div class="contenido-texto">
+                    <h2>Talla</h2>
+                    <input type="text" maxlength="3" id="altura" />
+                    <label for="calculator-step-age">cm</label>
+                    <img src="img/altura.png" alt="">
+                </div>
+                <div class="contenido-texto">
+                    <h2>Peso</h2>
+                    <input type="text" maxlength="3" id="peso"/>
+                    <label for="calculator-step-age">kg</label>
+                    <img src="img/peso.png" alt="">
+                </div>
+                <button id="boton">Calcular</button>
+
+                <br />
+                <br />
+                <p id="resultado"</p>
+
+                <div class="respuesta" id="respuesta">
+                    <!--añadir output-->
+                    <!--añadir output-->
+                    <div class="recomendaciones" id="recomendaciones">
+                        <h2>Recomendaciones:</h2>
+                        <p>Un estilo de vida saludable puede ayudar a prevenir el sobrepeso y la obesidad.
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+        </section>
+        <section class="tabla">
+
+        </section>
+        <img class="img" src="img/tabla.png" width="80%" alt="">
+    </main>
+    
+
+    <!--Pie De Pagina-->
+    <footer>
+        <a name="contacto" />
+        <div class="contenedor-pie">
+            <div class="content-foo">
+                <a href="#inicio">Inicio</a> 
+            </div>
+            <div class="content-foo">
+                <a href="#">Facebook</a> 
+            </div>
+            <div class="content-foo">
+                <a href="#">Email</a> 
+            </div>
+        </div>
+        <h2 class="titulo-final"><a href="https://unmsm.edu.pe">UNMSM</a> | <a href="https://sistemas.unmsm.edu.pe">Facultad de Ingeniería de Sistemas e Informática</a> </h2>
+        <h2 class="titulo-final">&copy; DannyMP| Daniel Tumpay Flores</h2>
+
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
